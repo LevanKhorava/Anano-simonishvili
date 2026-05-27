@@ -371,8 +371,12 @@ function App() {
     return (
       <div className="screen start-screen">
         <div className="start-card">
-          <h1>A Journey for Anano</h1>
+          <h1>Game for Anano</h1>
           <p className="subtitle">For Anano Simonishvili</p>
+          <p className="speakers-note">
+            🔊 Please turn on your speakers or put on headphones to listen to
+            the music.
+          </p>
           <p>
             Help Anano pick the wildflowers as they bloom across the meadow.
             Each one is a step closer to you. Six milestones await — six things
@@ -505,12 +509,8 @@ function App() {
       />
 
       {activeMilestone && (
-        <div className="modal-backdrop" onClick={closeMilestone}>
-          <div
-            className="modal"
-            onClick={(e) => e.stopPropagation()}
-            role="dialog"
-          >
+        <div className="modal-backdrop">
+          <div className="modal" role="dialog">
             <div className="modal-badge">Milestone {activeMilestone.count}</div>
             <h2>{activeMilestone.title}</h2>
             <p>{activeMilestone.message}</p>
