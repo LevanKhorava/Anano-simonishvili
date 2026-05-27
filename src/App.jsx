@@ -66,7 +66,7 @@ function Anano({ x, y, facing }) {
         aria-label="Anano"
       >
         {/* back hair */}
-        <ellipse cx="60" cy="58" rx="34" ry="36" fill="#f6d65a" />
+        <ellipse cx="60" cy="58" rx="34" ry="36" fill="#e89a3c" />
         {/* dress */}
         <path
           d="M40 100 Q60 92 80 100 L92 150 Q60 158 28 150 Z"
@@ -102,25 +102,25 @@ function Anano({ x, y, facing }) {
         {/* front hair fringe */}
         <path
           d="M34 58 Q40 36 60 34 Q80 36 86 58 Q80 50 70 50 Q62 50 58 56 Q52 50 44 52 Q38 54 34 58 Z"
-          fill="#f6d65a"
+          fill="#e89a3c"
         />
         {/* side hair strands */}
         <path
           d="M34 62 Q28 90 36 102"
-          stroke="#f6d65a"
+          stroke="#e89a3c"
           strokeWidth="8"
           fill="none"
           strokeLinecap="round"
         />
         <path
           d="M86 62 Q92 90 84 102"
-          stroke="#f6d65a"
+          stroke="#e89a3c"
           strokeWidth="8"
           fill="none"
           strokeLinecap="round"
         />
         {/* top knot */}
-        <circle cx="60" cy="32" r="8" fill="#f6d65a" />
+        <circle cx="60" cy="32" r="8" fill="#e89a3c" />
         <circle cx="60" cy="28" r="3" fill="#ff8fab" />
         {/* eyes */}
         <ellipse cx="50" cy="68" rx="3.6" ry="4.4" fill="#ffffff" />
