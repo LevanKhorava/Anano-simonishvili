@@ -249,6 +249,19 @@ html, body, #root {
   overflow: hidden;
 }
 
+.field::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("./assets/anano.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.25;
+  pointer-events: none;
+  z-index: 0;
+}
+
 .sun {
   position: absolute;
   top: 30px;
